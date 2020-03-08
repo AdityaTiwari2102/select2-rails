@@ -4709,12 +4709,12 @@ S2.define('select2/defaults',[
         );
       }
 
-      if (options.multiple) {
-        options.selectionAdapter = Utils.Decorate(
-          options.selectionAdapter,
-          SelectionSearch
-        );
-      }
+//       if (options.multiple) {
+//         options.selectionAdapter = Utils.Decorate(
+//           options.selectionAdapter,
+//           SelectionSearch
+//         );
+//       }
 
       if (
         options.containerCssClass != null ||
